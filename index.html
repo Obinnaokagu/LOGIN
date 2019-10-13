@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Login Page</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <form>
-        <h4 class="text-center">LOG IN</h4>
-        <div class="input-group">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" placeholder="Example@email.com">
-        </div>
-        <div class="input-group">
-            <label for="password">Password</label>
-            <input id="password" name="password" type="password" placeholder="Password">
-        </div>
-        <div class="input-group">
-            <button>Submit</button>
-        </div>
+      <h4 class="text-center">LOG IN</h4>
+      <hr>
+      <div class="input-group">
+        <i class="far fa-user icons"></i>
+        <!-- <label for="email" class="label-user">Username</label> -->
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="example@gmail.com"
+        />
+      </div>
+      <div class="input-group">
+        <i class="fas fa-unlock-alt icons"></i>
+        <!-- <label for="password password-label">Password</label> -->
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Password"
+        />
+      </div>
+      <div>
+        <button>Submit</button>
+      </div>
+      <a href="">Forgotten password</a>
     </form>
-</body>
+  </body>
 </html>
